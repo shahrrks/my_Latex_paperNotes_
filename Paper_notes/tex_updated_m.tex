@@ -1,0 +1,120 @@
+\documentclass{article}
+
+\title{Shah Rrks's Dotted Paper}
+
+\usepackage{geometry}
+
+
+\geometry{a4paper, margin=10mm}
+
+\usepackage{tikz}
+\tikzset{x=1mm, y=1mm}
+
+
+\newcommand{\sub}{Elektronische Schaltungen} % Subject's Name 
+\newcommand{\aut}{Shah Rrks}
+\newcommand{\cha}{Transistoren}
+%\pagenumbering{gobble}
+
+\definecolor{DotsColor}{HTML}{000000}
+\definecolor{BordersColor}{HTML}{000000}
+\definecolor{PageNumbersColor}{HTML}{000000}
+
+%\pagestyle{empty}
+
+
+%%%%%% Document Begins %%%%%%%%
+\begin{document}
+
+\fontfamily{cmss}
+\fontsize{12}{12}
+\selectfont
+
+\newsavebox{\frontside}
+\savebox{\frontside}
+{
+	\begin{tikzpicture}[remember picture, overlay]
+
+	\color{DotsColor}
+
+	\foreach \x in {1,...,30}
+		\foreach \y in {2,...,54}
+			\filldraw (current page.south west) ++ (10,281) ++ (5*\x,-5*\y) circle (0.04);
+
+	\color{BordersColor}
+
+
+	\end{tikzpicture}
+}
+
+\newsavebox{\backside}
+\savebox{\backside}
+{
+	\begin{tikzpicture}[remember picture, overlay]
+
+	\color{DotsColor}
+
+	\foreach \x in {7,...,36}
+		\foreach \y in {2,...,54}
+			\filldraw (current page.south west) ++ (200,281) ++ (-5*\x,-5*\y) circle (0.04);
+
+	\end{tikzpicture}
+}
+%Enter here number of Pages/2 + 1
+\foreach \s in {0,...,14}
+{
+	\usebox{\frontside}
+
+	\begin{tikzpicture}[remember picture, overlay]
+
+	\color{PageNumbersColor}
+	\node (a) at (167, 11) {Date:\rule{1.8cm}{0.15mm}};
+	\node[below=0.4cm] at (a) {Time:\rule{1.8cm}{0.15mm}};
+	\draw[fill=gray!60, opacity=0.3] (153,0) rectangle(185, 15); % date and time Rectangle
+	\node[draw, below = 1cm, left=2cm] at (a) {\cha};
+	\draw (150,40) -- (150, - 280); %right_Vertical_line
+	\draw (-10,-3) -- (190,-3); %top_line
+	\draw (-0.2,40) -- (-0.2, - 280); %left_vertical_line
+	\draw (-10,-270) -- (190,-270);
+	\draw[fill=gray!60,opacity=0.3] (180,-260) circle (4mm);
+	\draw[fill=gray!60,opacity=0.3] (180, -250) circle (4mm);
+	\draw[fill=gray!60,opacity=0.3] (180, -240) circle (4mm);
+	\node[draw] (b) at (124,-275) {\sub};
+	\node[draw, left=10.2cm] at (b) {\aut};
+	%\draw (175,4) -- (175,-50)
+	%\draw (0,0) rectangle (10,281)
+	\node [anchor=north,xshift=200 mm,yshift=10 mm,rotate=0] at (current page.south west) {\pgfmathparse{2*\s+1}\pgfmathprintnumber[int trunc]{\pgfmathresult}};
+	
+
+	\end{tikzpicture}
+	
+	\newpage
+
+	\usebox{\backside}
+
+	\begin{tikzpicture}[remember picture, overlay]
+
+	\color{PageNumbersColor}
+
+	\node (a) at (167, 11) {Date:\rule{1.8cm}{0.15mm}};
+	\node[below=0.4cm] at (a) {Time:\rule{1.8cm}{0.15mm}};
+	\node[draw, below = 1cm, left=2cm] at (a) {\cha};
+	\draw[fill=gray!60, opacity=0.3] (153,0) rectangle(183, 15);
+	\draw (150,40) -- (150, - 280); %right_Vertical_line
+	\draw (-10,-3) -- (190,-3); %top_line
+	\draw (-0.2,40) -- (-0.2, - 280); %left_vertical_line
+	\draw (-10,-270) -- (190,-270);
+	\draw[fill=gray!60,opacity=0.3] (180, -260) circle (4mm);
+	\draw[fill=gray!60,opacity=0.3] (180, -250) circle (4mm);
+	\draw[fill=gray!60,opacity=0.3] (180, -240) circle (4mm);
+	\node[draw] (b) at (124,-275) {\sub};
+	\node[draw, left=10.2cm] at (b) {\aut};
+
+	\node [anchor=north,xshift=10 mm,yshift=10 mm,rotate=0] at (current page.south west) {\pgfmathparse{2*\s+2}\pgfmathprintnumber[int trunc]{\pgfmathresult}};
+
+	\end{tikzpicture}
+
+	\newpage
+}
+
+\end{document}
