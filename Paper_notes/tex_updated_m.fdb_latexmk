@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1618255630 "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.tex" "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.pdf" "tex_updated_m" 1618255637
-  "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.aux" 1618255637 2263 44f6002e475effb72c3b47d87e005e3f ""
-  "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.tex" 1618255622 3386 5c7832418206f80b4469c3469ca2d708 ""
+["pdflatex"] 1618255796 "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.tex" "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.pdf" "tex_updated_m" 1618255804
+  "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.aux" 1618255804 2263 44f6002e475effb72c3b47d87e005e3f ""
+  "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.tex" 1618255774 3386 fe13afcf42104e38668dbd05d4054735 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -101,11 +101,11 @@
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1586288239 4811913 0be9a7e86c70a26e5e3042966bcd7097 ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1616292754 2432457 5d07c60ab973d9406712d98547a9fe3e ""
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
-  "tex_updated_m.aux" 1618255637 2263 44f6002e475effb72c3b47d87e005e3f "pdflatex"
-  "tex_updated_m.tex" 1618255622 3386 5c7832418206f80b4469c3469ca2d708 ""
+  "tex_updated_m.aux" 1618255804 2263 44f6002e475effb72c3b47d87e005e3f "pdflatex"
+  "tex_updated_m.tex" 1618255774 3386 fe13afcf42104e38668dbd05d4054735 ""
   (generated)
-  "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.log"
+  "tex_updated_m.log"
   "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.pdf"
+  "/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.log"
   "tex_updated_m.aux"
   "tex_updated_m.pdf"
-  "tex_updated_m.log"
