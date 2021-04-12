@@ -11,9 +11,9 @@
 \tikzset{x=1mm, y=1mm}
 
 
-\newcommand{\sub}{Elektronische Schaltungen} % Subject's Name 
+\newcommand{\sub}{Allgemeine Elektrotechnik - 4} % Subject's Name 
 \newcommand{\aut}{Shah Rrks}
-\newcommand{\cha}{Transistoren}
+\newcommand{\cha}{Elektrostatik}
 %\pagenumbering{gobble}
 
 \definecolor{DotsColor}{HTML}{000000}
@@ -60,18 +60,18 @@
 
 	\end{tikzpicture}
 }
-%Enter here number of Pages/2 + 1
-\foreach \s in {0,...,14}
+
+\foreach \s in {0,...,3}
 {
 	\usebox{\frontside}
 
 	\begin{tikzpicture}[remember picture, overlay]
 
 	\color{PageNumbersColor}
-	\node (a) at (167, 11) {Date:\rule{1.8cm}{0.15mm}};
-	\node[below=0.4cm] at (a) {Time:\rule{1.8cm}{0.15mm}};
-	\draw[fill=gray!60, opacity=0.3] (153,0) rectangle(185, 15); % date and time Rectangle
-	\node[draw, below = 1cm, left=2cm] at (a) {\cha};
+	\node (a) at (171, 11) {Date:\rule{25mm}{0.15mm}};
+	\node[below=0.45cm] at (a) {Time:\rule{25mm}{0.15mm}};
+	\draw[fill=gray!60, opacity=0.3,rounded corners] (153,0) rectangle(190, 15); % date and time Rectangle
+	\node[draw, below = 1cm, left=2.3cm] at (a) {\cha};
 	\draw (150,40) -- (150, - 280); %right_Vertical_line
 	\draw (-10,-3) -- (190,-3); %top_line
 	\draw (-0.2,40) -- (-0.2, - 280); %left_vertical_line
@@ -79,7 +79,7 @@
 	\draw[fill=gray!60,opacity=0.3] (180,-260) circle (4mm);
 	\draw[fill=gray!60,opacity=0.3] (180, -250) circle (4mm);
 	\draw[fill=gray!60,opacity=0.3] (180, -240) circle (4mm);
-	\node[draw] (b) at (124,-275) {\sub};
+	\node[draw] (b) at (123,-275) {\sub};
 	\node[draw, left=10.2cm] at (b) {\aut};
 	%\draw (175,4) -- (175,-50)
 	%\draw (0,0) rectangle (10,281)
@@ -95,19 +95,23 @@
 	\begin{tikzpicture}[remember picture, overlay]
 
 	\color{PageNumbersColor}
-
-	\node (a) at (167, 11) {Date:\rule{1.8cm}{0.15mm}};
-	\node[below=0.4cm] at (a) {Time:\rule{1.8cm}{0.15mm}};
-	\node[draw, below = 1cm, left=2cm] at (a) {\cha};
-	\draw[fill=gray!60, opacity=0.3] (153,0) rectangle(183, 15);
+	\node (a) at (171, 11) {Date:\rule{25mm}{0.15mm}};
+	\node[below=0.45cm] at (a) {Time:\rule{25mm}{0.15mm}};
+	\draw[fill=gray!60, opacity=0.3,rounded corners] (153,0) rectangle(190, 15); % date and time Rectangle
 	\draw (150,40) -- (150, - 280); %right_Vertical_line
 	\draw (-10,-3) -- (190,-3); %top_line
 	\draw (-0.2,40) -- (-0.2, - 280); %left_vertical_line
 	\draw (-10,-270) -- (190,-270);
-	\draw[fill=gray!60,opacity=0.3] (180, -260) circle (4mm);
-	\draw[fill=gray!60,opacity=0.3] (180, -250) circle (4mm);
-	\draw[fill=gray!60,opacity=0.3] (180, -240) circle (4mm);
-	\node[draw] (b) at (124,-275) {\sub};
+	\draw[fill=gray!60,opacity=0.3] (-8, -256) circle (6mm);
+	\draw[fill=gray!60,opacity=0.3] (-8, -243) circle (6mm);
+	\draw[fill=gray!60,opacity=0.3] (-8, -230) circle (6mm);
+	% %\coordinate (xx) at (-8,230);
+	% \node (m) at (-8,230); 
+	% \node[draw, fill=gray!60,opacity=0.3] at (m) circle(6mm); 
+	% %\draw[fill=gray!60,opacity=0.3] (30:5cm) circle (6mm);
+	% %\path[draw,fill=gray!60,opacity=0.3,left =2 cm] (xx)  circle (6mm);
+
+	\node[draw] (b) at (123,-275) {\sub};
 	\node[draw, left=10.2cm] at (b) {\aut};
 
 	\node [anchor=north,xshift=10 mm,yshift=10 mm,rotate=0] at (current page.south west) {\pgfmathparse{2*\s+2}\pgfmathprintnumber[int trunc]{\pgfmathresult}};
