@@ -11,9 +11,9 @@
 \tikzset{x=1mm, y=1mm}
 
 
-\newcommand{\sub}{Allgemeine Elektrotechnik-4} % Subject's Name 
+\newcommand{\sub}{Sprach und Audiokommunikation} % Subject's Name 
 \newcommand{\aut}{Shah Rrks}
-\newcommand{\cha}{Elektrostatik}
+\newcommand{\cha}{SAK}
 %\pagenumbering{gobble}
 
 \definecolor{DotsColor}{HTML}{000000}
@@ -61,7 +61,7 @@
 	\end{tikzpicture}
 }
 
-\foreach \s in {2,...,12}
+\foreach \s in {1,...,12}
 {
 	\usebox{\frontside}
 
@@ -70,7 +70,7 @@
 	\color{PageNumbersColor}
 	\node (a) at (171, 11) {Date:\rule{25mm}{0.15mm}};
 	\node[below=0.45cm] at (a) {Time:\rule{25mm}{0.15mm}};
-	\draw[fill=gray!60, opacity=0.3, rounded corners] (153,0) rectangle(190, 15); % date and time Rectangle
+	\draw[fill=gray!60, opacity=0.3, rounded corners] (153,0) rectangle(190, 16); % date and time Rectangle
 	\node[draw, below = 1cm, left=2.3cm, rounded corners] at (a) {\cha};
 	\draw (150,40) -- (150, - 280); %right_Vertical_line
 	
@@ -80,8 +80,8 @@
 	\draw[fill=gray!60,opacity=0.3] (180,-260) circle (4mm);
 	\draw[fill=gray!60,opacity=0.3] (180, -250) circle (4mm);
 	\draw[fill=gray!60,opacity=0.3] (180, -240) circle (4mm);
-	\node[draw] (b) at (123,-275) {\sub};
-	\node[draw, left=10.2cm] at (b) {\aut};
+	\node[draw] (b) at (118,-275) {\sub};
+	\node[draw, left=9.5cm] at (b) {\aut};
 	%\draw (175,4) -- (175,-50)
 	%\draw (0,0) rectangle (10,281)
 	\node [anchor=north,xshift=200 mm,yshift=10 mm,rotate=0] at (current page.south west) {\pgfmathparse{2*\s+1}\pgfmathprintnumber[int trunc]{\pgfmathresult}};
@@ -97,7 +97,7 @@
 	\color{PageNumbersColor}
 	\node (a) at (171, 11) {Date:\rule{25mm}{0.15mm}};
 	\node[below=0.45cm] at (a) {Time:\rule{25mm}{0.15mm}};
-	\draw[fill=gray!60, opacity=0.3,rounded corners] (153,0) rectangle(190, 15); % date and time Rectangle
+	\draw[fill=gray!60, opacity=0.3,rounded corners] (153,0) rectangle(190, 16); % date and time Rectangle
 	\node[draw, below = 1cm, left=2.3cm, rounded corners] at (a) {\cha};
 	\draw (150,40) -- (149.5, - 280); %right_Vertical_line
 	\draw (-10,-3) -- (190,-3); %top_line
@@ -112,8 +112,8 @@
 	% %\draw[fill=gray!60,opacity=0.3] (30:5cm) circle (6mm);
 	% %\path[draw,fill=gray!60,opacity=0.3,left =2 cm] (xx)  circle (6mm);
 
-	\node[draw] (b) at (123,-275) {\sub};
-	\node[draw, left=10.2cm] at (b) {\aut};
+	\node[draw] (b) at (118,-275) {\sub};
+	\node[draw, left=9.5cm] at (b) {\aut};
 
 	\node [anchor=north,xshift=10 mm,yshift=10 mm,rotate=0] at (current page.south west) {\pgfmathparse{2*\s+2}\pgfmathprintnumber[int trunc]{\pgfmathresult}};
 
