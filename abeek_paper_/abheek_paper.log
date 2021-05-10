@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.21)  6 MAY 2021 18:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.21)  11 MAY 2021 01:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.tex
-(/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.tex
+**/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/abeek_paper_/abheek_paper.tex
+(/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/abeek_paper_/abheek_paper.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -258,33 +258,8 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count199
 \l__pdf_internal_box=\box56
-) (/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.aux
-
-LaTeX Warning: Label `pgfid1' multiply defined.
-
-
-LaTeX Warning: Label `pgfid2' multiply defined.
-
-
-LaTeX Warning: Label `pgfid1' multiply defined.
-
-
-LaTeX Warning: Label `pgfid2' multiply defined.
-
-
-LaTeX Warning: Label `pgfid1' multiply defined.
-
-
-LaTeX Warning: Label `pgfid2' multiply defined.
-
-
-LaTeX Warning: Label `pgfid1' multiply defined.
-
-
-LaTeX Warning: Label `pgfid2' multiply defined.
-
-)
-\openout1 = `tex_updated_m.aux'.
+) (/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/abeek_paper_/abheek_paper.aux)
+\openout1 = `abheek_paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -309,15 +284,15 @@ LaTeX Font Info:    ... okay on input line 27.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* h-part:(L,W,R)=(5.69054pt, 586.1268pt, 5.69054pt)
+* v-part:(T,H,B)=(56.9055pt, 782.4508pt, 5.69054pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=540.60239pt
-* \textheight=788.14136pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-80.81725pt
+* \textwidth=586.1268pt
+* \textheight=782.4508pt
+* \oddsidemargin=-66.57945pt
+* \evensidemargin=-66.57945pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -354,67 +329,153 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+\firstLine=\box58
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 31.
-
-\frontside=\box58
-\backside=\box59
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 114.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 114.
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 114.
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
 
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 114.
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
 
 
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 114.
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 114.
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 114.
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <13> on input line 114.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.09996> on input line 114.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.5> on input line 114.
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+[][] 
+ []
+
 [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7] [8] [9] [10] (/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.aux)
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
 
 
-LaTeX Warning: There were multiply-defined labels.
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
 
- ) 
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
+
+
+Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[][] 
+ []
+
+[2] (/Users/rrks/Documents/GitHub/my_Latex_paperNotes_/abeek_paper_/abheek_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 12152 strings out of 480608
- 248617 string characters out of 5903630
- 1754162 words of memory out of 5000000
- 27854 multiletter control sequences out of 15000+600000
- 535381 words of font info for 34 fonts, out of 8000000 for 9000
+ 11953 strings out of 480608
+ 245158 string characters out of 5903630
+ 463756 words of memory out of 5000000
+ 27664 multiletter control sequences out of 15000+600000
+ 532338 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,60p,478b,699s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-Output written on /Users/rrks/Documents/GitHub/my_Latex_paperNotes_/Paper_notes/tex_updated_m.pdf (10 pages, 867810 bytes).
+ 60i,6n,60p,478b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on /Users/rrks/Documents/GitHub/my_Latex_paperNotes_/abeek_paper_/abheek_paper.pdf (2 pages, 13265 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 18 PDF objects out of 1000 (max. 8388607)
+ 12 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

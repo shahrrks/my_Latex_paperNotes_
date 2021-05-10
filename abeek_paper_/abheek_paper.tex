@@ -1,0 +1,87 @@
+\documentclass{article}
+
+\title{Shah Rrks's Dotted Paper}
+
+\usepackage{geometry}
+
+
+\geometry{a4paper, margin=2mm, top = 20mm}
+
+\usepackage{tikz}
+\tikzset{x=1mm, y=1mm}
+
+
+\newcommand{\sub}{Mathe 2} % Subject's Name 
+\newcommand{\aut}{Shah Rrks}
+\newcommand{\cha}{Lineare Algebra}
+%\pagenumbering{gobble}
+
+\definecolor{DotsColor}{HTML}{000000}
+\definecolor{BordersColor}{HTML}{000000}
+\definecolor{PageNumbersColor}{HTML}{000000}
+
+%\pagestyle{empty}
+
+
+%%%%%% Document Begins %%%%%%%%
+\begin{document}
+
+
+
+
+
+\newsavebox{\firstLine}
+\savebox{\firstLine}
+{
+	\begin{tikzpicture}
+
+        \draw[color=red] (0,0) -- (200,0);
+        \draw[color=blue,thin] (0,4.5) -- (200,4.5); 
+        \draw[color=blue,thin] (0,9) -- (200,9); 
+        \draw[color=red] (0,13.5) -- (200,13.5); 
+     \end{tikzpicture}
+}
+
+
+\begin{tikzpicture}[remember picture, overlay]
+    % \draw (0,0) -- (0,15);
+    \node (a) at (171, 11) {Date:\rule{25mm}{0.15mm}};
+\node[below=0.45cm] at (a) {Time:\rule{25mm}{0.15mm}};
+\draw[color=red,rounded corners] (153,0) rectangle(190, 15); % date and time Rectangle
+\draw[color=red] (25,20) -- (25,-280);
+\draw[color=red] (26,20) -- (26,-280);
+\end{tikzpicture}
+
+\foreach \s in {0,...,12}
+{
+	\usebox{\firstLine}
+
+
+    
+
+    \vspace*{6mm}
+}
+
+\newpage
+
+\begin{tikzpicture}[remember picture, overlay]
+    % \draw (0,0) -- (0,15);
+    \node (a) at (171, 11) {Date:\rule{25mm}{0.15mm}};
+\node[below=0.45cm] at (a) {Time:\rule{25mm}{0.15mm}};
+\draw[color=red,rounded corners] (153,0) rectangle(190, 15); % date and time Rectangle
+
+\draw[color=red] (25,20) -- (25,-280);
+\draw[color=red] (26,20) -- (26,-280);
+\end{tikzpicture}
+
+\foreach \s in {0,...,12}
+{
+	\usebox{\firstLine}
+
+    \vspace*{6mm}
+}
+
+
+
+
+\end{document}

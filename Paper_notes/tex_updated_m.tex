@@ -11,11 +11,11 @@
 \tikzset{x=1mm, y=1mm}
 
 
-\newcommand{\sub}{Übertragung Digitaler Signale} % Subject's Name 
+\newcommand{\sub}{Mathe-2} % Subject's Name 
 \newcommand{\aut}{Shah Rrks}
-\newcommand{\cha}{ÜDS}
+\newcommand{\cha}{Lineare Algebra}
 %\pagenumbering{gobble}
-
+\pagenumbering{gobble}
 \definecolor{DotsColor}{HTML}{000000}
 \definecolor{BordersColor}{HTML}{000000}
 \definecolor{PageNumbersColor}{HTML}{000000}
@@ -34,34 +34,25 @@
 \savebox{\frontside}
 {
 	\begin{tikzpicture}[remember picture, overlay]
-
 	\color{DotsColor}
-
 	\foreach \x in {1,...,30}
 		\foreach \y in {2,...,54}
 			\filldraw (current page.south west) ++ (10,281) ++ (5*\x,-5*\y) circle (0.04);
-
 	\color{BordersColor}
-
-
 	\end{tikzpicture}
 }
-
 \newsavebox{\backside}
 \savebox{\backside}
 {
 	\begin{tikzpicture}[remember picture, overlay]
-  
 	\color{DotsColor}
-
 	\foreach \x in {8,...,36}
 		\foreach \y in {2,...,54}
 			\filldraw (current page.south west) ++ (200,281) ++ (-5*\x,-5*\y) circle (0.04);
-
 	\end{tikzpicture}
 }
 
-\foreach \s in {0,...,8}
+\foreach \s in {0,...,4}
 {
 	\usebox{\frontside}
 
@@ -80,8 +71,8 @@
 	\draw[fill=gray!60,opacity=0.3] (180,-260) circle (4mm);
 	\draw[fill=gray!60,opacity=0.3] (180, -250) circle (4mm);
 	\draw[fill=gray!60,opacity=0.3] (180, -240) circle (4mm);
-	\node[draw] (b) at (118,-275) {\sub};
-	\node[draw, left=9.5cm] at (b) {\aut};
+	\node[draw] (b) at (138,-275) {\sub};
+	\node[draw] at (12,-275) {\aut};
 	%\draw (175,4) -- (175,-50)
 	%\draw (0,0) rectangle (10,281)
 	\node [anchor=north,xshift=200 mm,yshift=10 mm,rotate=0] at (current page.south west) {\pgfmathparse{2*\s+1}\pgfmathprintnumber[int trunc]{\pgfmathresult}};
@@ -112,8 +103,8 @@
 	% %\draw[fill=gray!60,opacity=0.3] (30:5cm) circle (6mm);
 	% %\path[draw,fill=gray!60,opacity=0.3,left =2 cm] (xx)  circle (6mm);
 
-	\node[draw] (b) at (118,-275) {\sub};
-	\node[draw, left=9.5cm] at (b) {\aut};
+	\node[draw] (b) at (138,-275) {\sub};
+	\node[draw] at (12,-275) {\aut};
 
 	\node [anchor=north,xshift=10 mm,yshift=10 mm,rotate=0] at (current page.south west) {\pgfmathparse{2*\s+2}\pgfmathprintnumber[int trunc]{\pgfmathresult}};
 
