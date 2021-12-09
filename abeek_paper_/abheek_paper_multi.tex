@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{floatflt,epsfig}
+\usepackage{ngerman}
+\usepackage{amssymb, amsmath}
+\usepackage{hyperref}
+\usepackage{tikz,pgfplots}
+\usepackage{qrcode} 
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[final]{pdfpages}
+\pagenumbering{gobble}
+\begin{document}
+
+% ben --> begin enumerate 
+% bit --> begin Itemize 
+% sse --> section 
+% sss --> subsection 
+% ss2 --> subsubsection 
+%@(\left(  \right)
+%@{\left\{  \right}
+%@[\left[  \right]
+\includepdf[pages=1, scale = 1.2] {abheek_paper.pdf}
+\includepdf[pages=1,scale = 2, pagecommand={},offset=-12cm -1cm]{abheek_paper.pdf}
+\includepdf[pages=2,scale = 2, pagecommand={},offset=10cm -1cm]{abheek_paper.pdf}
+\includepdf[pages=2,scale = 2, pagecommand={},offset=-12cm -1cm]{abheek_paper.pdf}
+
+
+\end{document}

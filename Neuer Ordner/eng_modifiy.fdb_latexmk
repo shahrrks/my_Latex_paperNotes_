@@ -1,12 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1620947752 "c:/Github/my_Latex_paperNotes_/abeek_paper_/abheek_paper.tex" "abheek_paper.pdf" "abheek_paper" 1620947754
-  "abheek_paper.aux" 1620947754 118 c4e2ee239433ed45e233c26a44542010 "pdflatex"
-  "abheek_paper.tex" 1620947746 1864 0a6e1fb7c20d27b5344ff8f7b6d25909 ""
-  "c:/Github/my_Latex_paperNotes_/abeek_paper_/abheek_paper.tex" 1620947746 1864 0a6e1fb7c20d27b5344ff8f7b6d25909 ""
-  "c:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1620684635 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1620683518 1328 c834bbb027764024c09d3d2bf908b5f0 ""
-  "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1620683518 1324 c910af8c371558dc20f2d7822f66fe64 ""
-  "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1620682716 32080 340ef9bf63678554ee606688e7b5339d ""
+["pdflatex"] 1620755875 "c:/Github/my_Latex_paperNotes_/modi/eng_modifiy.tex" "eng_modifiy.pdf" "eng_modifiy" 1620755877
+  "c:/Github/my_Latex_paperNotes_/modi/eng_modifiy.tex" 1620755875 1073 66402d4a62c24b2ef456fc5f61172247 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1620682716 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1620686121 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty" 1620685148 6501 4011d89d9621e0b0901138815ba5ff29 ""
@@ -92,7 +86,9 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1620688628 5218828 4f303caef798cf9a3da258509a8ce44e ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1620688855 2735158 65133d263945c2ebe73e6a8561f75753 ""
   "c:/texlive/2021/texmf.cnf" 1620688600 713 e69b156964470283e0530f5060668171 ""
+  "eng_modifiy.aux" 1620755877 33 caafbda2f246531a72f60df9bc4c0d5b "pdflatex"
+  "eng_modifiy.tex" 1620755875 1073 66402d4a62c24b2ef456fc5f61172247 ""
   (generated)
-  "abheek_paper.pdf"
-  "abheek_paper.aux"
-  "abheek_paper.log"
+  "eng_modifiy.pdf"
+  "eng_modifiy.aux"
+  "eng_modifiy.log"

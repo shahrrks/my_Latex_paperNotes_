@@ -11,9 +11,9 @@
 \tikzset{x=1mm, y=1mm}
 
 
-\newcommand{\sub}{Mathe-2} % Subject's Name 
+\newcommand{\sub}{Mathematik 2} % Subject's Name 
 \newcommand{\aut}{Shah Rrks}
-\newcommand{\cha}{Lineare Algebra}
+\newcommand{\cha}{Vektoranalysis}
 %\pagenumbering{gobble}
 \pagenumbering{gobble}
 \definecolor{DotsColor}{HTML}{000000}
@@ -35,9 +35,9 @@
 {
 	\begin{tikzpicture}[remember picture, overlay]
 	\color{DotsColor}
-	\foreach \x in {1,...,30}
+	\foreach \x in {1,...,35}
 		\foreach \y in {2,...,54}
-			\filldraw (current page.south west) ++ (10,281) ++ (5*\x,-5*\y) circle (0.04);
+			\filldraw (current page.south west) ++ (10,281) ++ (5*\x,-5*\y) circle (0.03);
 	\color{BordersColor}
 	\end{tikzpicture}
 }
@@ -46,33 +46,34 @@
 {
 	\begin{tikzpicture}[remember picture, overlay]
 	\color{DotsColor}
-	\foreach \x in {8,...,36}
+	\foreach \x in {3,...,36}
 		\foreach \y in {2,...,54}
 			\filldraw (current page.south west) ++ (200,281) ++ (-5*\x,-5*\y) circle (0.04);
 	\end{tikzpicture}
 }
 
-\foreach \s in {0,...,4}
+\foreach \s in {0,...,15}
 {
 	\usebox{\frontside}
 
 	\begin{tikzpicture}[remember picture, overlay]
 
 	\color{PageNumbersColor}
-	\node (a) at (171, 11) {Date:\rule{25mm}{0.15mm}};
+	\node (a) at (169, 9) {Date:\rule{25mm}{0.15mm}};
 	\node[below=0.45cm] at (a) {Time:\rule{25mm}{0.15mm}};
-	\draw[fill=gray!60, opacity=0.3, rounded corners] (153,0) rectangle(190, 16); % date and time Rectangle
-	\node[draw, below = 1cm, left=2.3cm, rounded corners] at (a) {\cha};
-	\draw (150,40) -- (150, - 280); %right_Vertical_line
+	\draw[fill=gray!60, opacity=0.2, rounded corners, below = 0.2cm,left=0.2cm] (153,0) rectangle(190, 16); % date and time Rectangle
+	\draw[rounded corners,below=0.2cm,left=0.2cm] (153,0) rectangle(190, 16);
+	\node[draw, below = 0.8cm, left=2.3cm, rounded corners] at (a) {\cha};
+	\draw[opacity=0.1] (170,0) -- (170, - 280); %right_Vertical_line
 	
 	\draw (-10,-3) -- (190,-3); %top_line
 	\draw (-0.2,40) -- (-0.2, - 280); %left_vertical_line
-	\draw (-10,-270) -- (190,-270);
-	\draw[fill=gray!60,opacity=0.3] (180,-260) circle (4mm);
-	\draw[fill=gray!60,opacity=0.3] (180, -250) circle (4mm);
-	\draw[fill=gray!60,opacity=0.3] (180, -240) circle (4mm);
-	\node[draw] (b) at (138,-275) {\sub};
-	\node[draw] at (12,-275) {\aut};
+	\draw (-10,-266) -- (190,-266);
+	\draw[fill=gray!60,opacity=0.2,line	width=1mm] (180,-259) circle (5mm);
+	\draw[fill=gray!60,opacity=0.2,line	width=1mm] (180, -247) circle (5mm);
+	\draw[fill=gray!60,opacity=0.2,line	width=1mm] (180, -235) circle (5mm);
+	\node[draw, right=2cm] (b) at (135,-270) {\sub};
+	\node[draw, left = 1.5cm] at (38,-270) {\aut};
 	%\draw (175,4) -- (175,-50)
 	%\draw (0,0) rectangle (10,281)
 	\node [anchor=north,xshift=200 mm,yshift=10 mm,rotate=0] at (current page.south west) {\pgfmathparse{2*\s+1}\pgfmathprintnumber[int trunc]{\pgfmathresult}};
@@ -86,25 +87,26 @@
 	\begin{tikzpicture}[remember picture, overlay]
 
 	\color{PageNumbersColor}
-	\node (a) at (171, 11) {Date:\rule{25mm}{0.15mm}};
+	\node (a) at (169, 9) {Date:\rule{25mm}{0.15mm}};
 	\node[below=0.45cm] at (a) {Time:\rule{25mm}{0.15mm}};
-	\draw[fill=gray!60, opacity=0.3,rounded corners] (153,0) rectangle(190, 16); % date and time Rectangle
-	\node[draw, below = 1cm, left=2.3cm, rounded corners] at (a) {\cha};
-	\draw (150,40) -- (149.5, - 280); %right_Vertical_line
+	\draw[fill=gray!60, opacity=0.2,rounded corners, below=0.2cm,left=0.2cm] (153,0) rectangle(190, 16); % date and time Rectangle
+	\draw[rounded corners, below=0.2cm,left=0.2cm] (153,0) rectangle(190, 16);
+	\node[draw, below = 0.9cm, left=2.3cm, rounded corners] at (a) {\cha};
+	\draw[opacity=0.1] (170,0) -- (170, - 280); %right_Vertical_line
 	\draw (-10,-3) -- (190,-3); %top_line
 	\draw (-0.2,40) -- (-0.2, - 280); %left_vertical_line
-	\draw (-10,-270) -- (190,-270);
-	\draw[fill=gray!60,opacity=0.3] (-8, -260) circle (6mm);
-	\draw[fill=gray!60,opacity=0.3] (-8, -247) circle (6mm);
-	\draw[fill=gray!60,opacity=0.3] (-8, -234) circle (6mm);
+	\draw (-10,-266) -- (190,-266); % Bottom_line
+	\draw[fill=gray!60,opacity=0.2,line	width=1mm] (-8, -259) circle (5mm);
+	\draw[fill=gray!60,opacity=0.2,line	width=1mm] (-8, -247) circle (5mm);
+	\draw[fill=gray!60,opacity=0.2,line	width=1mm] (-8, -235) circle (5mm);
 	% %\coordinate (xx) at (-8,230);
 	% \node (m) at (-8,230); 
 	% \node[draw, fill=gray!60,opacity=0.3] at (m) circle(6mm); 
 	% %\draw[fill=gray!60,opacity=0.3] (30:5cm) circle (6mm);
 	% %\path[draw,fill=gray!60,opacity=0.3,left =2 cm] (xx)  circle (6mm);
 
-	\node[draw] (b) at (138,-275) {\sub};
-	\node[draw] at (12,-275) {\aut};
+	\node[draw, right=2cm] (b) at (135,-270) {\sub};
+	\node[draw,left=1.5cm] at (38,-270) {\aut};
 
 	\node [anchor=north,xshift=10 mm,yshift=10 mm,rotate=0] at (current page.south west) {\pgfmathparse{2*\s+2}\pgfmathprintnumber[int trunc]{\pgfmathresult}};
 

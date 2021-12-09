@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.11)  14 MAY 2021 01:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.11)  11 MAY 2021 19:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Github/my_Latex_paperNotes_/abeek_paper_/abheek_paper.tex
-(c:/Github/my_Latex_paperNotes_/abeek_paper_/abheek_paper.tex
+**c:/Github/my_Latex_paperNotes_/modi/eng_modifiy.tex
+(c:/Github/my_Latex_paperNotes_/modi/eng_modifiy.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -256,23 +256,23 @@ File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box58
-) (./abheek_paper.aux)
-\openout1 = `abheek_paper.aux'.
+) (./eng_modifiy.aux)
+\openout1 = `eng_modifiy.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -328,152 +328,88 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \firstLine=\box60
+\frontPage=\box61
 
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
-[][] 
- []
-
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 63--63
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
 [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[2]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[3]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[4]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[5]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[6]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[7]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[8]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[9]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[10]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[11]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
+[12]
+Overfull \hbox (7011.75046pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-
-Overfull \hbox (4.99197pt too wide) in paragraph at lines 82--82
-[][] 
- []
-
-[2] (./abheek_paper.aux) ) 
+[13] (./eng_modifiy.aux) ) 
 Here is how much of TeX's memory you used:
- 12102 strings out of 478846
- 247294 string characters out of 5859791
- 524105 words of memory out of 5000000
- 29556 multiletter control sequences out of 15000+600000
- 404045 words of font info for 29 fonts, out of 8000000 for 9000
+ 12052 strings out of 478846
+ 246339 string characters out of 5859791
+ 525031 words of memory out of 5000000
+ 29508 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,6n,104p,459b,631s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on abheek_paper.pdf (2 pages, 22327 bytes).
+ 100i,5n,104p,450b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on eng_modifiy.pdf (13 pages, 15367 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
